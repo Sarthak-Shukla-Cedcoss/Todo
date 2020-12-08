@@ -1,0 +1,41 @@
+header{
+    text-align: center;
+    font-size: 200%;
+    background-color: rgb(235, 169, 241);
+    padding:20px ;
+}
+.Tomain{
+    text-align: center;
+    margin: 5%;
+}
+#btn1{
+    border-radius:10px;
+    border: none;
+    padding:4px;
+    padding-left:10px ;
+    padding-right:10px ;
+    background-color: rgb(152, 230, 152) ;
+}
+#inp{
+    border: none;
+    border-bottom: 2px solid black;
+}
+.ul1 , .ul2{
+    margin-left: 4%;
+    margin-right: 4%;
+    border-bottom: 1px solid black;
+}
+.li11{
+    margin:1%;
+}
+#pend1{
+    margin-right: 4%;
+    float:right;
+}
+#comp1{
+    color:green;
+
+}
+#pend1{
+    color:red;
+}
