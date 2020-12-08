@@ -4,10 +4,14 @@ function len(){
     $("#todo").text("To-Do Tasks : "+len1);
     $("#comp").text("Compleated Task : "+len2);
     $("#pend").text(" Pending Tasks : "+len1);
-    $("#comp1").text("Compleated :"+ len2 );
+    $("#comp1").text("Compleated : "+len2);
 }
 $("#btn1").click(function () {
     var inputval = $("#inp").val();
+    if (inputval == ""){
+        alert("Plese enter any task ");
+    }
+    else{
     $("#ul1").append("<li class='li11'><input type='checkbox' class='check'> <span class='input1'>"
         + inputval + "</span>  <input type='text' class='inpedit'> <button class='edit'> EDIT </button> <button class='save' style='display:none;'> EDIT </button> <button class='del'> DELETE </button> </li>");
     $("#inp").val("");
@@ -36,4 +40,5 @@ $("#btn1").click(function () {
         }
         len();
     });
+}
 });
